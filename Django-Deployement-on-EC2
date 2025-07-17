@@ -1,3 +1,5 @@
+### Create Django-Deployement-on-EC2
+```
 1. Launch EC2 Instance with port 22 SG and Custom Port set with 8000 and source as anywhere
 2. Login to Server
 3. sudo apt-get update
@@ -8,3 +10,4 @@
 8. python3 manage.py migrate
 9. python3 manage.py createsuperuser
 10. python3 manage.py runserver 0.0.0.0:8000
+```
