@@ -65,3 +65,30 @@ Simple Real-World Example
         Deny stopping security services
       Dev OU SCP:
         Allow more flexibility
+
+Lab - Create Orgnizations SCP
+=================================================
+    1. In AWS organization of management account click on policies section
+    2. goto SCP and enable it
+    3. Create a policy 
+    Name: PreventOrgLeave
+
+    Policy statement
+            {
+            	"Version": "2012-10-17"
+            	"Statement" : [
+            		{
+            			"Effect" : "Deny",
+            			"Action" : [
+            				"organization:LeaveOrganization"
+            			],
+            			Resources: "*"
+            		
+            		}
+            	]
+            
+            }
+    4. Click a target and attach OU
+    5. goto dev accout and goto AWS Orgnizations
+    6. click on leave the organization and try it
+
