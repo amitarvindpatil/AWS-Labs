@@ -16,6 +16,7 @@ Key Concept:
         4. Organizational Units (OUs) :- Logical groupings of accounts, Used to apply policies at scale
 
 Structure:
+
         Root
         ├── Security
         │    ├── Log-Archive
