@@ -40,3 +40,21 @@ Common Best Practices
         2.  Keep management account isolated
         3.  Use SCPs as guardrails, not daily access control
         4. Separate accounts for: Security, Logging, Enable CloudTrail and Config at organization level
+
+Lab: Create AWS Orgnizations, OU'S and Accounts
+
+        1. Goto AWS management account and goto AWS Orgnizations Services
+        2. Create AWS Orgnizations
+        3. Create new OU 
+        4. Select root and goto action and create New OU (Development,Test,Prod) etc.
+        5. Add AWS Account (dev)
+        6. login to Dev account copy account-id
+        7. back to management account and Add new AWS account 
+        8. 2 option we have (Create an AWS account and Invite an existing account)
+        9. put the account-id and details and send invite
+        10. goto dev account goto aws organization service
+        12 goto invitation and accept it
+        13. Now for production we will create new account.
+        14 goto Add aws new account and select Create AWS account
+        15. fill the details Name of account(production) email and Tags etc and create.
+        17. move AWS dev and prod account int OU's 
