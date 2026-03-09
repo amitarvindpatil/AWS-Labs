@@ -16,7 +16,16 @@ Key Concept:
         4. Organizational Units (OUs) :- Logical groupings of accounts, Used to apply policies at scale
 
 Structure:
-
+        Root
+        ├── Security
+        │    ├── Log-Archive
+        │    └── Security-Tools
+        ├── Production
+        │    ├── App1-Prod
+        │    └── App2-Prod
+        └── Non-Production
+            ├── Dev
+            └── Test
 Feature:
         
         1.  Service Control Policies(SCP): Guardrails, not permissions
