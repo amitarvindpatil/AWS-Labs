@@ -31,3 +31,30 @@ Example:
             "Resource": "arn:aws:s3:::my-bucket/*"
         }]
         }
+
+#### Core Componets
+1. Enable MFA on root user
+2. Use Roles instead of IAM user 
+3. Avoid wildcarts (*) in policies
+4. Use IAM Access Analyzer
+5. Rotate Access keys or eliminate them
+6. Use Service Control policies (SCP) at Org level
+
+### IAM vs Related AWS Services
+
+
+| Service | Purpose |
+|------|------|
+| IAM | Permissions & authorization |
+| AWS Organizations | Multi‑account governance (SCPs) |
+| AWS STS | Temporary credentials |
+| Amazon Cognito | App user authentication |
+| AWS IAM Identity Center (SSO) | Workforce identity |
+
+### When You’ll Touch IAM Most (DevOps View)
+
+- Writing **bucket/KMS policies**
+- Creating **cross‑account roles**
+- Locking down access using **Conditions**
+- Enforcing compliance (SOX, audit)
+- Integrating EC2/Lambda/S3 securely
