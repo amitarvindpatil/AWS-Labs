@@ -35,7 +35,7 @@
 
     1. Create a user "shraddha"
     2. Attach direct administration access permission
-    3. Create a policy as "ScopePermission" attach policy (present in attachment)
+    3. Create a policy as "scopepermissions.json" attach policy (present in files)
     4. goto user configuration - Permission boundrary and attach ScopePermission policy
     5. login with shraddha and try to launch instance
     6. try to create new user "userx" from Shraddha with same procdure we did for shraddha like attach boundrary 
