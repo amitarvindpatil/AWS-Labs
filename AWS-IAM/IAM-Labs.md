@@ -56,7 +56,7 @@
     3. create user "maggie" add into externalContractor group
     
     4. goto prod account - s3 bucket("rr-cutomer-feedback")
-    5. iam - create policy Name:- "Rr-iam-policy-maggie"  copy policy(cross-account-iam-rolefors3-bucket.json) - update policy s3 bucket arn (
+    5. iam - create policy Name:- "Rr-iam-policy-maggie"  copy policy(cross-account-iam-role-for-s3-bucket.json) - update policy s3 bucket arn (
     6. Create a role - select "AWS Account" - An AWS Account (set Dev AccountID)
     7. Select Policy "Rr-iam-policy-maggie" 
     8. provide RoleName - AIUpdateRole
