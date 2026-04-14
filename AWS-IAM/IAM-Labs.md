@@ -29,7 +29,7 @@
     1. Create S3 bucket 
     2. create user as "Sarang" do not attach permission
     3. Create policy to allow permission 
-    4. Click on Action and attach to user "Sarang"
+    4. Click on Action and attach to user "Sarang" (iam-policy-for-sarang.json)
 
 #### IAM Permission Boundries
 
