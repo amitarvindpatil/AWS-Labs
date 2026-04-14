@@ -58,3 +58,10 @@ Example:
 - Locking down access using **Conditions**
 - Enforcing compliance (SOX, audit)
 - Integrating EC2/Lambda/S3 securely
+
+#### IAM best practice 
+
+- before provide access of service  to user check the authentication and authorization of identity (Alice)
+- set up user with iamrole(Assume Role) from cross acccount access instead of provide Secret and access key
+- have some drawbacks to maintain user management and group management with IAM
+- draw architecture dia
