@@ -56,13 +56,13 @@
     3. create user "maggie" add into externalContractor group
     
     4. goto prod account - s3 bucket("rr-cutomer-feedback")
-    5. iam - create policy "Rr-iam-policy-maggie"  copy policy(cross acccount iam role for s3.json) - update policy s3 bucket arn
+    5. iam - create policy Name:- "Rr-iam-policy-maggie"  copy policy(cross-account-iam-rolefors3-bucket.json) - update policy s3 bucket arn (
     6. Create a role - select "AWS Account" - An AWS Account (set Dev AccountID)
     7. Select Policy "Rr-iam-policy-maggie" 
     8. provide RoleName - AIUpdateRole
     
     9. goto dev acccount - maggie user configuration - Permission - Add Inline Policy
-    10.  Add AssumeRole-for-maggie.json - replace placeholder
+    10.  Add (assumerole-for-maggie.json) - replace placeholder
     11. login as maggie - in dev 
     12. try to switch role in production account and goto s3 bucket access the bucket
 
