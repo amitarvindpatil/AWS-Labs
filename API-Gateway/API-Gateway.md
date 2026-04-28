@@ -22,9 +22,8 @@ EC2,HTTPEndpoints or AWS Resouces
 
 ### Understand API Methods ?
 
-| Methods   |   Purpose
-| GET    | Retrives data (Read-Only)
-| POST  |  Storeing Data to Create Resources
-| PUT   |  Updates or Create Resouces
-| Delete  | Remove Data or resouces
-|Patch |  Applies Partial Updates
+- GET :- Retrives data (Read-Only)
+- POST :- Storeing Data to Create Resources
+- PUT :- Updates or Create Resouces
+- Delete :- Remove Data or resouces
+- Patch :- Applies Partial Updates
